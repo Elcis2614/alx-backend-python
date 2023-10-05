@@ -8,4 +8,4 @@ def concat(str1: str, str2: str) -> str:
     """
        takes in two string and return a concatenated one
     """
-    return srt1 + str2
+    return str1 + str2
