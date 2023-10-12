@@ -1,4 +1,4 @@
-#!/usr/bin/env pythn3
+#!/usr/bin/env python3
 """
    async_generator : a coroutine that takes no argument
    and uses random module to generate integers
