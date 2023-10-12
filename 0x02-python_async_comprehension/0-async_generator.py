@@ -6,7 +6,6 @@
 
 import asyncio
 import random
-import time
 
 
 async def async_generator() -> None:
