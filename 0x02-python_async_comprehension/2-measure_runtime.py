@@ -6,7 +6,7 @@
 
 import asyncio
 import time
-async_generator = __import__('1-async_comprehension').async_comprehension
+comp = __import__('1-async_comprehension').async_comprehension
 
 
 async def measure_runtime() -> float:
@@ -15,6 +15,6 @@ async def measure_runtime() -> float:
        parallel using asyncio.gather
     """
     start = time.perf_counter()
-    await asyncio.gather(async_generator(), async_generator(), async_generator(), async_generator())
+    await asyncio.gather(comp(), comp(), comp(), comp())
     elapsed = time.perf_counter() - start
     return (elapsed)
