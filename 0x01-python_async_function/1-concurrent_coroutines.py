@@ -1,4 +1,4 @@
-#!/usr/bin/even python3
+#!/usr/bin/env python3
 """
    Function wait_n executes multiple coroutines
    by importing wait_random ( in 0-basic_async_syntax.py)
